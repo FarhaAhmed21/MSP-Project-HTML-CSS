@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+  }
+  .page-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "nav" "info-book" "details" "recommend" "footer";
+    gap: 20px 20px;
+  }
+  .nav {
+    grid-area: nav;
+  }
+  .recommend {
+    grid-area: recommend;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  .info-book {
+    grid-area: info-book;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: auto;
+    grid-template-areas: "image info info info info";
+    /* gap: 10px 10px; */
+    /* background-color: #d5dbdb; */
+  }
+  .image-book {
+    grid-area: image;
+  }
+  .image-book img {
+    width: 100%;
+  }
+  .info-book .rate {
+    text-align: center;
+    width: 243px;
+  }
+  .checked {
+    color: orange;
+  }
+  .info {
+    grid-area: info;
+    /* background-color: #e5e7e9; */
+    display: grid;
+    width: 60%;
+    word-spacing: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: auto auto;
+    grid-template-areas: "h2" "p";
+    /* position: relative; */
+    /* bottom: 30px; */
+  }
+  .info h1 {
+    grid-area: h2;
+    /* background-color: teal; */
+  }
+  .info p {
+    grid-area: p;
+    /* background-color: tomato; */
+  }
+  .details {
+    grid-area: details;
+  }
+  .details p span {
+    font-weight: bold;
+  }
+  #book1,
+  #book2 {
+  }
+  
+  #book1 .image,
+  #book2 .image,
+  #book3 .image
+   {
+    height: 305px;
+  }
+  #book1 .image img,
+  #book2 .image img,
+  
+  #book3 .image img {
+    height: 100%;
+  }
+  
+  #book1,
+  #book2,
+  #book3 {
+    position: relative;
+  }
+  
+  #book1 .rate,
+  #book2 .rate,
+  #book3 .rate {
+    position: absolute;
+    bottom: 0;
+    right: 53px;
+  }

@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .page-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "nav" "info-book" "details" "recommend" "footer";
+    gap: 10px 10px;
+  }
+  .nav {
+    grid-area: nav;
+    background-color: brown;
+    margin-bottom: 20px;
+  }
+  .recommend {
+    grid-area: recommend;
+    background-color: rgb(236, 236, 236);
+  }
+  .recommend h2{
+    margin: 10px 20px;
+    padding: 10px;
+    color:rgb(150, 88, 43);
+  }
+  .footer {
+    grid-area: footer;
+    background-color: brown;
+  }
+  .books-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+   text-align: center;
+  }
+  .info-book {
+    grid-area: info-book;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: auto;
+    grid-template-areas: "image info info info info";
+    
+  }
+  .image-book {
+    grid-area: image;
+  }
+  .image-book img {
+    width: 100%;
+  }
+  .info-book .image img{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+  }
+  .info-book .rate {
+    text-align: center;
+    width: 243px;
+  }
+  .checked {
+    color: orange;
+  }
+  .info {
+    grid-area: info;
+    
+    display: grid;
+    width: 60%;
+    word-spacing: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: auto auto;
+    grid-template-areas: "h2" "p";
+    position: relative;
+    bottom: 30px;
+  }
+  .info h1 {
+    grid-area: h2;
+    
+    margin:20px;
+  }
+  .info p {
+    grid-area: p;
+    
+  }
+  .details {
+    grid-area: details;
+    margin:10px;
+  }
+  .details p span {
+    font-weight: bold;
+    
+  }
+  .book-item img{
+    width: 200px;
+    height: 250px;
+  }
+  
+ 
+  
+  
+  
+  .books-info{
+    margin: 10px;
+  }
+  
+  
+  .book-item a{
+    text-decoration: none;
+    color: rgb(150, 88, 43);
+  }
+  .book-image {
+    position: relative;
+  }
+  .book-item{
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccd1d1;
+    background-color: #f0f3f4;
+    text-align: center;
+  }
+  .book-image p{
+    position: absolute;
+    left:0px;
+    top: 20px;
+    width: 50px;
+    padding: 8px;
+    background-color: yellow;
+   
+    
+  }

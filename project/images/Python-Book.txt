@@ -1,0 +1,164 @@
+!DOCTYPE html
+html lang=en
+  head
+    meta charset=UTF-8 
+    meta http-equiv=X-UA-Compatible content=IE=edge 
+    meta name=viewport content=width=device-width, initial-scale=1.0 
+    link rel=stylesheet href=cssinfo-book.css 
+    link rel=stylesheet href=cssbook.css 
+    link
+      rel=stylesheet
+      href=httpscdnjs.cloudflare.comajaxlibsfont-awesome4.7.0cssfont-awesome.min.css
+    
+    titlePython For Everybodytitle
+  head
+  body
+    div class=page-info
+      div class=navnavdiv
+      div class=info-book
+        div class=image
+          img
+            src=images51A00dCD6QS._SY344_BO1,204,203,200_QL70_ML2_.jpg
+            alt=
+          
+          div class=rate
+            span class=fa fa-star checkedspan
+            span class=fa fa-star checkedspan
+            span class=fa fa-star checkedspan
+            span class=fa fa-star checkedspan
+            span class=fa fa-starspan
+          div
+        div
+        div class=info
+          h1Python for Everybody Exploring Data in Python 3h1
+          p
+            Python for Everybody is designed to introduce students to
+            programming and software development through the lens of exploring
+            data. You can think of the Python programming language as your tool
+            to solve data problems that are beyond the capability of a
+            spreadsheet. Python is an easy to use and easy to learn programming
+            language that is freely available on Macintosh, Windows, or Linux
+            computers. So once you learn Python you can use it for the rest of
+            your career without needing to purchase any software.This book uses
+            the Python 3 language. The earlier Python 2 version of this book is
+            titled Python for Informatics Exploring Information. There are
+            free downloadable electronic copies of this book in various formats
+            and supporting materials for the book at www.py4e.com. The course
+            materials are available to you under a Creative Commons License so
+            you can adapt them to teach your own Python course.
+          p
+        div
+      div
+      div class=details
+        h3Product detailsh3
+        pspanPublisherspan  Charles Severance (9 April 2016)p
+        pspanLanguagespan ‏  ‎ Englishp
+        pspanPaperbackspan ‏  ‎ 248 pagesp
+      div
+
+      div class=recommend
+        div class=best-sellers
+          h2Related Booksh2
+          div class=books
+            div class=book1
+              div class=image
+                img
+                  src=images41gNG32WMiL._SY344_BO1,204,203,200_QL70_ML2_.jpg
+                  alt=
+                
+                !-- p class=sale30%p --
+                p class=newNewp
+              div
+
+              p
+                Data Science from Scratch First Principles with Python -a
+                  href=
+                  Programminga
+                
+              p
+              !-- p106.25 EGPdel class=deleted125 EGPdelp --
+              div class=rate
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-starspan
+                span class=fa fa-starspan
+              div
+            div
+
+            div class=book1 id=book2
+              !-- p class=describehello worldp --
+              div class=image
+                img
+                  src=images61KBExHOcRL._SX258_BO1,204,203,200_QL70_ML2_.jpg
+                  alt=
+                
+                p class=sale25%p
+                !-- p class=newNewp --
+              div
+              p
+                Data Structures and Algorithms in Python -
+                a href=Programminga
+              p
+              !-- p106.25 EGPdel class=deleted125 EGPdelp --
+              div class=rate
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-starspan
+                span class=fa fa-starspan
+              div
+            div
+            div class=book1 id=book3
+              !-- p class=describehello worldp --
+              div class=image
+                img
+                  src=images51B161E04DL._SX375_BO1,204,203,200_.jpg
+                  alt=
+                
+                p class=sale20%p
+                p class=newNewp
+              div
+              !-- pMe Before You-a href=Romanceap --
+              !-- p106.25 EGPdel class=deleted125 EGPdelp --
+              p
+                Automate the Boring Stuff with Python -
+                a href= Programminga
+              p
+              div class=rate
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-starspan
+              div
+            div
+
+            div class=book1 id=book4
+              !-- p class=describehello worldp --
+              div class=image
+                img
+                  src=images51ci5fe2mpL._SX258_BO1,204,203,200_QL70_ML2_.jpg
+                  alt=
+                
+                !-- p class=sale35%p
+              p class=newNewp --
+              div
+              !-- pMe Before You-a href=Romanceap --
+              !-- p106.25 EGPdel class=deleted125 EGPdelp --
+              pCracking Codes With Python - a href= Programming ap
+              div class=rate
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-star checkedspan
+                span class=fa fa-starspan
+                span class=fa fa-starspan
+              div
+            div
+          div
+        div
+      div
+      div class=footerfooterdiv
+    div
+  body
+html
